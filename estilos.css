@@ -12,6 +12,8 @@ html {
 scroll-behavior: smooth;
 }
 .container{
+    width: 90%;
+    max-width: 1200px;
     margin:0 auto;
     overflow: hidden;
     
@@ -741,3 +743,4 @@ scroll-behavior: smooth;
         grid-template-columns: 1fr;
     }
 }
+
