@@ -49,7 +49,6 @@ scroll-behavior: smooth;
 }
 .nav__title{
     font-weight: 300;
-    color: white;
 }
 }
 .nav__link{
@@ -742,6 +741,7 @@ scroll-behavior: smooth;
         grid-template-columns: 1fr;
     }
 }
+
 
 
 
