@@ -439,12 +439,14 @@ scroll-behavior: smooth;
 }
 
 
-.footer__container{
-    display: flex;
-    justify-content: space-between;
+.footer__container {
+    display: flex
+;
+    justify-content: center;
     align-items: center;
     border-bottom: 1px solid #fff;
     padding-bottom: 60px;
+    padding-top: 40px;
 }
 
 .nav--footer{
@@ -745,6 +747,7 @@ scroll-behavior: smooth;
         grid-template-columns: 1fr;
     }
 }
+
 
 
 
