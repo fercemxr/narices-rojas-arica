@@ -12,12 +12,10 @@ html {
 scroll-behavior: smooth;
 }
 .container{
-    /* width: 90%; */
-    /* max-width: 1200px; */
     margin:0 auto;
     overflow: hidden;
+    
     padding: var(--pading-container);
-    width: 100%;
 }
 .hero{
     width: 100%;
@@ -45,15 +43,10 @@ scroll-behavior: smooth;
     --pading-container:0;
     height: 100%;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
 }
 .nav__title{
     font-weight: 300;
-    /* background-color: #ff0000; */
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-}
 }
 .nav__link{
     margin-left: auto;
@@ -440,12 +433,14 @@ scroll-behavior: smooth;
 
 
 .footer__container {
-    display: flex;
+    display: flex
+;
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid #fff;
     padding-bottom: 60px;
     padding-top: 40px;
+
 }
 
 .nav--footer{
@@ -746,9 +741,3 @@ scroll-behavior: smooth;
         grid-template-columns: 1fr;
     }
 }
-
-
-
-
-
-
