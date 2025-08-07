@@ -440,8 +440,7 @@ scroll-behavior: smooth;
 
 
 .footer__container {
-    display: flex
-;
+    display: flex;
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid #fff;
@@ -747,6 +746,7 @@ scroll-behavior: smooth;
         grid-template-columns: 1fr;
     }
 }
+
 
 
 
