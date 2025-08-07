@@ -49,7 +49,10 @@ scroll-behavior: smooth;
 }
 .nav__title{
     font-weight: 300;
-    background-image: url('imagenes/fondo.jpg');
+    background-color: #ff0000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
 }
 .nav__link{
@@ -742,6 +745,7 @@ scroll-behavior: smooth;
         grid-template-columns: 1fr;
     }
 }
+
 
 
 
