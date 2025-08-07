@@ -49,6 +49,13 @@ scroll-behavior: smooth;
 }
 .nav__title{
     font-weight: 300;
+    background-image: url('imagenes/fondo.jpg');
+    background-size: cover; /* para que cubra todo el fondo */
+    background-position: center;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
 }
 .nav__link{
     margin-left: auto;
@@ -740,3 +747,4 @@ scroll-behavior: smooth;
         grid-template-columns: 1fr;
     }
 }
+
