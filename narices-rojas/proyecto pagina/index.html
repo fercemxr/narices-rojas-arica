@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narices Rojas Arica</title>
+    <link rel="shortcut icon" href="./imagenes/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./estilos.css">
+
+    <meta name="theme-color"content="#2091f9">
+    <meta name="Narices Rojas Arica">
+</head>
+
+<body>
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Narices Rojas Arica.</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#inicio" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#about" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#eventos" class="nav__links">Eventos</a>
+                </li>
+                <li class="nav__items">
+                    <a href="https://www.facebook.com/narices.rojas.arica.2025" class="nav__links">Blog</a>
+                </li>
+                <img src="imagenes/close.svg" class="nav__close">
+            </ul>
+            <div class="nav__menu">
+                <img src="imagenes/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section id="inicio"class="hero__container container">
+            <h1 class="hero__title">NARICES <span class="rojas">ROJAS</span> ARICA</h1>
+            <p class="hero__paragraph">  VOLUNTARIAS DE RISAS Y AMOR<br>¡Únete para ayudar a miles de jóvenes!</p>
+            <a href="#" class="cta">Comienza aqui!!!</a>
+        </section>
+    </header>
+
+    <main>
+        <section id="about"class="container about">
+            <h2 class="subtitle">¿Qué es Narices rojas Arica?</h2>
+            <p class="about__paragraph">
+                Somos una asociación sin fines de lucro que busca apoyar a todas las personas que están pasando por situaciones delicadas,
+                ya sea a través de sonrisas y felicidad.
+                Realizamos eventos que puedan ayudar a distintas causas para hospitales, organizaciones, fundaciones y/o jardines infantiles.
+            </p>
+            
+        
+            <div class="about__main">
+                <article class="about__icons">
+                <img src="imagenes/corazon.svg" class="about__icon">
+                <h3 class="about__title">Nuestra misión</h3>
+                <p class="about__paragraph">Llevamos alegría y contención a quienes más lo necesitan, con amor y compromiso.</p>
+                </article>
+            
+                <article class="about__icons">
+                <img src="imagenes/impacto.svg" class="about__icon">
+                <h3 class="about__title">Impacto</h3>
+                <p class="about__paragraph">Más de 100 familias beneficiadas en hospitales y centros comunitarios de Arica.</p>
+                </article>
+            
+                <article class="about__icons">
+                <img src="imagenes/actividades.svg" class="about__icon">
+                <h3 class="about__title">Actividades</h3>
+                <p class="about__paragraph">Realizamos visitas y actividades  dinámicas para llevar sonrisas a niñas, niños y familias.</p>
+                </article>
+                <article class="about__icons">
+                    <img src="imagenes/voluntariado.svg" class="about__icon" alt="Participación">
+                    <h3 class="about__title">Participación</h3>
+                    <p class="about__paragraph">Súmate a nuestras actividades y eventos especiales sin ser voluntario.</p>
+                </article>
+                
+                <article class="about__icons">
+                    <img src="imagenes/colabora.svg" class="about__icon" alt="Colabora">
+                    <h3 class="about__title">Colabora</h3>
+                    <p class="about__paragraph">Descubre cómo puedes apoyar con donaciones y llevar alegría a quienes más lo necesitan.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="eventos"class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledge__texts">
+                    <h2 class="subtitle"> PROXIMOS EVENTOS</h2>
+                    <p class="knowledge__paragraph"> Los proximos eventos seran </p>
+                    <a href="#" class="cta">Entra al evento</a>
+
+                </div>
+                <figure class="knowledge__picture">
+                <img src="imagenes/evento.png" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        <section class="donate container">
+        <h2 class="subtitle">Apoya nuestra causa con tu donación.</h2>
+        <p class="donate__note">Las donaciones no son obligatorias, pero sí muy agradecidas.</p>
+    
+        <div class="donate__table">
+            <div class="donate__element">
+            <p class="donate__name">Donación pequeña</p>
+            <h3 class="donate__amount">$1.000 CLP</h3>
+            <p>Ayuda con materiales para la asociación.</p>
+            <a href="javascript:void(0);" onclick="mostrarTransferencia()" class="donate__cta">Donar $1.000 CLP</a>
+        </div>
+
+        <div class="donate__element donate__element--best">
+            <p class="donate__name">Donación media</p>
+            <h3 class="donate__amount">$5.000 CLP</h3>
+            <p>Contribuye a proyectos de educación y salud.</p>
+            <a href="javascript:void(0);" onclick="mostrarTransferencia()" class="donate__cta">Donar $5.000 CLP</a>
+        </div>
+
+        <div class="donate__element">
+            <p class="donate__name">Donación grande</p>
+            <h3 class="donate__amount">$10.000 CLP</h3>
+            <p>Apoya los gastos de personas que lo necesiten.</p>
+            <a href="javascript:void(0);" onclick="mostrarTransferencia()" class="donate__cta">Donar $10.000 CLP</a>
+        </div>
+    </div>
+</section>
+
+
+        <section id="transferencia" class="container">
+            <h2 class="subtitle">Datos para Transferencia</h2>
+            <p class="donate__note">Puedes hacer tu aporte con una transferencia bancaria:</p>
+            <ul>
+            <li><strong>Nombre:</strong> Narices Rojas Arica</li>
+            <li><strong>Banco:</strong> Banco Estado</li>
+            <li><strong>Cuenta:</strong> 123456789</li>
+            <li><strong>Tipo:</strong> Cuenta Vista</li>
+            <li><strong>RUT:</strong> 12.345.678-9</li>
+            <li><strong>Correo:</strong> contacto@naricesrojas.cl</li>
+            </ul>
+        <p class="donate__note">Una vez realizada la transferencia, puedes enviarnos el comprobante por redes sociales o correo.</p>
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="imagenes/leftarrow.svg" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Nadia Cortés, <span class="testimony__course">Cuentera de Narices Rojas Arica.</span></h2>
+                        <p class="testimony__review">Junto a mi lobo estamos muy felices de entregar amor, risas y cuentos divertidos que tiene siempre una historia mágica 
+                            y una buena enseñanza.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="imagenes/nay.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Lorena Lacroix, <span class="testimony__course">Sonrisita de Narices Rojas Arica.</span></h2>
+                        <p class="testimony__review">Quiero transmitir a todos y todas miles de sonrisas y  contribuir con  entregar Amor bonito junto a Narices Rojas Arica.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="imagenes/testimonio2.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Veronica Vargas Medel, <span class="testimony__course">Clown Visual de las Narices Rojas Arica.</span></h2>
+                        <p class="testimony__review">Para mí estar en esta hermosa agrupación es maravillosa, así puedo día a día entregar mucha alegría,
+                            amor y unos minutos de compañía a cada persona que lo necesita.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="imagenes/testimonio3.png" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Cynthia Bravo Olguin, <span class="testimony__course">Reiki risas de las Narices Rojas Arica.</span></h2>
+                        <p class="testimony__review">Me encanta ayudar a que puedan reencontrarse con su niño interior y disfrutar con amor y risas 
+                            Que a través del sonido de los cuentos iluminen cada célula de tu cuerpo. </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="imagenes/testimonio4.jpeg" class="testimony__img">
+                    </figure>
+                </section>
+
+
+                <img src="imagenes/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <p class="questions__paragraph">Queremos ayudarte a resolver todas tus preguntas para que te sientas parte de Narices Rojas de Arica.</p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Comó ayudan a los demás?
+                            <span class="questions__arrow">
+                                <img src="imagenes/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">La Fundación Narices Rojas de Arica ayuda a través de intervenciones
+                            lúdicas y emocionales que llevan alegría y bienestar a personas en situación de vulnerabilidad,
+                            especialmente niños y niñas hospitalizados. Realizan actividades como yoga de la risa, cuenta cuentos, teatro clown,
+                            magia y música, que ayudan a mejorar el ánimo, aliviar el estrés y acompañar a los pacientes y
+                            sus familias durante momentos difíciles. Además, participan en eventos especiales y campañas que buscan
+                            fomentar la esperanza y fortalecer el espíritu comunitario.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Cómo me puedo enterar de próximos eventos?
+                            <span class="questions__arrow">
+                                <img src="imagenes/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Anunciamos nuestros próximos eventos a través de nuestras redes sociales como Facebook e Instagram, y también actualizamos esta página con la imagen e información del evento, incluyendo la fecha y detalles importantes.
+                            ¡Mantente atento y no te los pierdas!</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Cómo garantizan que las donaciones se usen de forma responsable?
+                            <span class="questions__arrow">
+                                <img src="imagenes/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Somos una asociación sin fines de lucro y nos comprometemos a utilizar cada donación de forma transparente. Todo lo recaudado es destinado a materiales, actividades solidarias o ayudas puntuales para quienes más lo necesiten.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Puedo saber en qué se usó mi donación?
+                            <span class="questions__arrow">
+                                <img src="imagenes/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Sí, Si deseas conocer el uso específico de tu donación o el impacto que generó, puedes escribirnos y con gusto te enviaremos un resumen de nuestras actividades y proyectos en curso.
+                        
+                        </p>
+                    </div>
+                </article>
+            </section>
+
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Narices Rojas Arica.</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#inicio" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#about" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#eventos" class="nav__links">Eventos</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="https://www.facebook.com/narices.rojas.arica.2025" class="nav__links">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="https://www.facebook.com/narices.rojas.arica.2025" class="footer__icons"><img src="imagenes/facebook.svg" class="footer__img"></a>
+                <a href="https://www.instagram.com/narices_rojas_arica/" class="footer__icons"><img src="imagenes/instagram.svg" class="footer__img"></a>
+            </div>
+            <h3 class="footer__copyright">Derechos reservados &copy; Narices Rojas Arica</h3>
+        </section>
+    </footer>
+
+    <script src="js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+    
+
+
+    <script>
+    function mostrarTransferencia() {
+        document.getElementById('transferencia').style.display = 'block';
+        // Opcional: hacer scroll automático a la sección
+        document.getElementById('transferencia').scrollIntoView({ behavior: 'smooth' });
+    }
+    </script>
+        
+</body>
+</html>
